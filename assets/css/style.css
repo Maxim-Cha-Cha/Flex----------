@@ -5,38 +5,31 @@
   }
   .header{
     display: flex;
-    flex-direction: row;
-    justify-content:space-between ;
-    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    min-width: 320px;
-    min-height: 190px;
+    align-items: center;
+    padding: 0 30px;
+    min-height: 25vh;
+    max-height: 50vh;
     background-color: #262624;
   }
   .nav{
+    width: 450px;
     display: flex;
-    align-self: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .header-link{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    font-size: 3vh;
-  }
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
   .logo{
     font-size: 3vh;
-
   }
   .btn{
-    border: 3px solid white;
+    font-size: 20px;
+    border: 1px solid white;
     padding: 10px;
-   font-size: 2vh;
-    border-radius: 5%;
-    text-decoration: none;
-    background-color: #262624;
-    color: white;
-    margin-right: 40px;
   }
   .btn:hover{ 
     background-color: white;
